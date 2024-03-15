@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstore</title>
+    <style>
+        *{
+            font-size: large;
+        }
+        .box{
+            margin-left: auto;
+            margin-right: auto;
+            height: 700px;
+    }
+
+    .top{
+        height: 80px;
+        padding-top: 50px;
+        background-color: rgb(0,255,0);
+    }
+
+    .fl{
+        display: flex;
+    }
+
+    .gr{
+        font-size: large;
+        margin: 9.9%;
+    }
+
+    .side{
+        background-color: peachpuff;
+        height: 570px;
+        width: 18%;
+    }
+
+    .ebook{
+        height: 570px;
+        width: 82%;
+        background-color: orange;
+    }
+
+    .ebook img{
+        height: 250px;
+        margin-left: 30%;
+    }
+
+    #p1{
+        font-size: large;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: blue;
+        margin-left: 30%;
+    }
+
+    #p2{
+        font-size: large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: red;
+        margin-left: 30%;
+    }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top">
+            <a href="index.html" class="gr">HOME</a>
+            <a href="login.html" class="gr">LOGIN</a>
+            <a href="register.html" class="gr">REGISTER</a>
+            <a href="catalogue.html" class="gr">CATALOGUE</a>
+        </div>
+        <div class="fl">
+            <div class="side">
+                <br>
+                <a href="cse.html">CSE</a><br><br><br>
+                <a href="ece.html">ECE</a><br><br><br>
+                <a href="eee.html">EEE</a><br><br><br>
+                <a href="mech.html">MECH</a>
+            </div>
+            <div class="ebook">
+                <img src="books.jpeg" alt="books">
+                <p id="p1">Welocme to the Online Book Store!!!</p>
+                <p id="p2">*A Huge Collection of Engnieering E-Books*</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
